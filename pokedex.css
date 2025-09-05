@@ -1,0 +1,311 @@
+body{
+    height: 110vh;
+    width: 100vw;
+    background-color: black !important;
+}
+.topdesign{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    border: 1px solid black;
+
+
+}
+.topinner1{
+    height: 100%;
+    width: 15vw;
+    border: 1px solid rgb(236, 23, 23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+
+}
+.a{
+    width: 50%;
+    height: 70%;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: all;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    transition-duration: 1.5s;
+
+
+
+}
+
+.a:hover{
+    scale: 1.25;
+    transform: rotate(360deg);
+}
+
+
+.a img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        border-radius: 50%;
+    }
+
+
+.topinner2{
+    width: 85vw ;
+
+    
+}
+.b{
+    height: 40%;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:rgb(255, 0, 0);
+}
+.b1{
+    height: 75%;
+    width: 5%;
+    border: 2px solid black;
+    background-color: yellow;
+    border-radius: 50%;
+
+}
+
+.b1 img{
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.b2{
+    height: 75%;
+    width: 50%;
+    border: 2px solid,bisque;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;    
+    text-align: center;
+
+
+}
+
+
+.b2 h1{
+    font-size: 2rem;
+
+}
+@media (max-width:530px) {
+    .b2 h1{
+        font-size: 1.5rem;
+    }
+
+    
+}
+.b3{
+     height: 75%;
+    width: 5%;
+    border: 2px solid black;
+    background-color: yellow;
+    border-radius: 50%;
+
+}
+
+.b3 img{
+    height: 100%;
+    width: 100%;
+     border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.c{
+    height: 60%;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+text-decoration: underline;
+color: rgb(0, 0, 0) !important;
+}
+h2{
+font-family: "Edu NSW ACT Cursive", cursive;
+  
+  color: rgb(0, 0, 0) !important;
+  font-size: 1.5rem !important;
+
+}
+@media (max-width:420px) {
+    .innerc h2{
+        font-size: 1rem !important;
+    }
+
+    
+}
+
+.navbar{
+    
+    width: 100vw;
+    background-color: black !important;
+    border: 1px solid red !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+    
+
+
+#nav{
+    border-radius: 10px !important;
+}
+
+
+
+
+
+
+.main{
+    height: 71vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.input{
+    margin-left: 2vw;
+}
+.box{
+   
+    width: 38vw;
+    text-align: center;
+    height: 7vh;
+    font-size: 1.5rem;
+    border: 2px dashed rgb(255, 255, 255);
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    margin-top: 1vh;
+    font-weight: bold;
+    font-family:cursive;
+
+}
+@media (max-width:890px) {
+    .box{
+        font-size: 1rem;
+    }
+
+    
+}
+
+
+.getinfo {
+    width: 40vw;
+    text-align: center;
+    height: 7vh;
+    font-size: 1.5rem;
+    margin-top: 2vh;
+
+}
+
+.mainimg{
+    height: 50vh;
+    width: 35vw;
+    padding-left: 5vw;
+    
+}
+
+.hide{
+    display: none;
+}
+
+.mainrhs div{
+    color: rgb(255, 255, 255);
+}
+.mainrhs div{
+    width: 50vw;
+    height: 14vh;
+    font-size: 1.5vw;
+    padding-bottom: 2vh;
+
+}
+.textbox{
+    height: 4vh !important;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    padding-left: 0.5vw;
+}
+
+.outermain{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.contactinfo{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: cursive;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+}
+
+.footer{
+    height: 5vh;
+    width: 50vw;
+    margin-top:2vh;
+
+}
+
+.innercontactinfo{
+    display: flex;
+            border: 2px solid rgb(255, 255, 255);
+
+}
+
+.light{
+    background-color: white;
+    color: black;
+
+}
+
+
+.dark{
+    background-color: black;
+    color: white;
+    
+}
+
+.lightwb{
+    background-color: white;
+    color: black;
+        border: 2px dashed rgb(0, 0, 0);
+
+
+}
+
+.darkwb{
+    background-color: black;
+    color: white;
+    border: 2px dashed rgb(255, 255, 255);
+
+    
+}
+
+
+.fntdark {
+  color: black !important;
+}
+
+.fntlight {
+  color: white !important;
+}
+
+
+
+
+
